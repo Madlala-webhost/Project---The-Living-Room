@@ -1,16 +1,11 @@
-# React + Vite
+The Living Room
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Introduction
+The Living Room is a biodiversity-focused web application that helps users explore conservation data and build a personal species collection in one place. The project combines public ecological discovery with private, account-based tracking, giving users a way to learn about species across different countries while also saving and managing species that matter to them personally.
 
-Currently, two official plugins are available:
+The application is built with React and Vite, with Redux Toolkit and RTK Query handling state management and asynchronous data flows. Firebase Authentication and Firestore are used for secure login, registration, and per-user cloud storage. External biodiversity and conservation data sources enrich the experience by supplying species classifications, descriptions, images, observations, and IUCN-related context.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+At its core, The Living Room is designed to make environmental data feel more approachable, interactive, and personal. Users can browse country-level species information, explore conservation status patterns, and then move into their own protected dashboard to add, search, and manage species in a structured way. Each saved species can be explored through taxonomic details such as kingdom, phylum, class, order, family, genus, and species, creating a richer understanding of biodiversity through both research and interaction.
 
-## React Compiler
+The project brings together API integration, protected routes, authenticated state management, and cloud-hosted user data in a single themed experience centered on conservation awareness and digital stewardship.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
