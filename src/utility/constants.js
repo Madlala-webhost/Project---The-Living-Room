@@ -3,6 +3,8 @@ export const ROUTES ={
     LOGIN: "/login",
     REGISTER: "/register",    
     SPECIES: "/species",
+    MANAGE_SPECIES: "/manage-species",
+    MANAGE_USERS: "/manage-users",
 }
 export const ROLES = {
     USER: "user",

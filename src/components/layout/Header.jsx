@@ -103,20 +103,20 @@ function Header({ handleSpeciesCount }) {
                     style={{ minWidth: "200px" }}
                   >
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <Link className="dropdown-item" to={ROUTES.MANAGE_SPECIES}>
                         <i className="bi bi-leaf-fill me-2"></i>
-                        My Species
-                      </a>
+                        Manage my species
+                      </Link>
                     </li>
                     <li>
                       <hr className="dropdown-divider" />
                     </li>
 
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <Link className="dropdown-item" to={ROUTES.MANAGE_USERS}>
                         <i className="bi bi-clipboard-data me-2"></i>
-                        Manage Species
-                      </a>
+                        Manage users
+                      </Link>
                     </li>
                     <li>
                       <hr className="dropdown-divider" />
