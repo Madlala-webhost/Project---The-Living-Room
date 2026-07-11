@@ -5,6 +5,7 @@ export const ROUTES ={
     SPECIES: "/species",
     MANAGE_SPECIES: "/manage-species",
     MANAGE_USERS: "/manage-users",
+    COMING_SOON: "/coming-soon",
 }
 export const ROLES = {
     USER: "user",

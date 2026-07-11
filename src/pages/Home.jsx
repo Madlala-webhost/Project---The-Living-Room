@@ -33,7 +33,7 @@ function Home() {
           <p className="text-muted fs-5">
             Explore the conservation status of species in the selected country.
             You can view detailed information about each species and their
-            current threat levels.
+            current threat levels in Your Species Home page.
           </p>
         </div>
         <br />

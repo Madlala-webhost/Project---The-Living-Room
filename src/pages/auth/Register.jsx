@@ -85,7 +85,7 @@ function Register() {
                     className="d-inline-flex align-items-center justify-content-center bg-success rounded-circle mb-3"
                     style={{ width: "60px", height: "60px" }}
                   >
-                    <i className="bi bi-gem  fs-4"></i>
+                    <i class="bi bi-leaf-fill"></i>
                   </div>
                   <h1 className="h3 mb-2 fw-bold">Create Account</h1>
                   <p className="text-muted">Join us and start shopping today</p>

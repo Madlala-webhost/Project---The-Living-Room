@@ -120,7 +120,7 @@ function MySpecies() {
                     className="form-control form-control-lg ps-5 rounded-pill"
                     value={selectedSpecies}
                     onChange={(e) => setSelectedSpecies(e.target.value)}
-                    placeholder="Who are you looking for?"
+                    placeholder="Species you are looking for?"
                   />
                   <i className="bi bi-search position-absolute start-0 top-50 translate-middle-y ms-3 text-muted"></i>
                 </div>
