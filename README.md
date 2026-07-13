@@ -1,5 +1,8 @@
 The Living Room
 
+##Live Demo
+https://the-living-room-tau.vercel.app/
+
 Introduction
 The Living Room is a biodiversity-focused web application that helps users explore conservation data and build a personal species collection in one place. The project combines public ecological discovery with private, account-based tracking, giving users a way to learn about species across different countries while also saving and managing species that matter to them personally.
 
