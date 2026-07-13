@@ -53,8 +53,8 @@ function Header({ handleSpeciesCount }) {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item me-4">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+            <li className="nav-item me-4 mb-2 mb-sm-0">
               <Link
                 className="nav-link position-relative btn btn-outline-success rounded-pill px-3 border-2"
                 to={ROUTES.SPECIES}
@@ -62,6 +62,7 @@ function Header({ handleSpeciesCount }) {
                   borderWidth: "2px",
                   borderStyle: "solid",
                   transition: "all 0.3s ease",
+                  width: "200px",
                 }}
               >
                 <i className="bi bi-house-add-fill"></i>
@@ -72,7 +73,7 @@ function Header({ handleSpeciesCount }) {
               </Link>
             </li>
 
-            <li className="nav-item me-3">
+            <li className="nav-item me-3 mb-2 mb-sm-0">
               <button
                 className="btn btn-outline-secondary rounded-pill px-3"
                 onclick="toggleTheme()"
